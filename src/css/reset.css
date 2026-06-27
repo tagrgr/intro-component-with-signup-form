@@ -5,3 +5,9 @@
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
