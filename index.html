@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/style.css">
   <link rel="stylesheet" href="./src/css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
@@ -20,23 +23,24 @@
 
     <section class="main-section">
       <div>
-        <button type="submit">Try it free 7 days then $20/mo. thereafter</button>
-        <div>
+        <button type="submit" class="btn-free-trial">Try it free 7 days then $20/mo. thereafter</button>
+        <div class="form">
           <input type="text" placeholder="First Name">
           <input type="text" placeholder="Last Name">
           <input type="text" placeholder="Email Address">
           <input type="text" placeholder="Password">
-          <button type="submit">Claim your free trial</button>
+          <button type="submit" class="btn-claim">Claim your free trial</button>
           <p>By clicking the button, you are agreeing to our <span class="terms">Terms and Services</span></p>
         </div>
       </div>
     </section>
+  </main>
 
-    <footer class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </footer>
-  </main>  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+    
 </body>
 <script src="./src/js/script.js"></script>
 </html>
