@@ -38,9 +38,9 @@ body {
     color: #fff;
     background-color: hsl(248, 32%, 49%);
     border: hsl(248, 32%, 49%);
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
-    box-shadow: 0px 5px hsl(0, 67%, 65%) ;
+    box-shadow: 0px 5px hsl(0, 67%, 65%);
 }
 
 .container .main-section .btn-free-trial:hover {
@@ -54,17 +54,18 @@ body {
 .container .main-section .form {
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    padding: 30px;
+    gap: 15px;
+    padding: 20px;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 5px hsl(0, 67%, 65%);
 }
 
 .container .main-section .form input {
     height: 40px;
     border: 1px solid hsl(246, 25%, 77%);
     border-radius: 5px;
-    padding: 0 30px;
+    padding: 0 20px;
     font-weight: 600;
 }
 
@@ -72,15 +73,17 @@ body {
     height: 50px;
     letter-spacing: 0.1em;
     background-color: hsl(154, 59%, 51%);
-    border: 2px solid hsl(154, 68%, 44%);
+    border: 0 solid;
     border-radius: 5px;
     color: #fff;
     font-weight: 600;
+    box-shadow: 0px 5px hsl(154, 57%, 49%);
 }
 
 .container .main-section .form .btn-claim:hover {
     background-color: hsl(154, 63%, 67%);
     border: 0 solid;
+    box-shadow: 0px 5px hsl(154, 63%, 67%);
 }
 
 .container .main-section .form p {

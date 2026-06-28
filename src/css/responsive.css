@@ -1,0 +1,40 @@
+@media (max-width: 375px) {
+    body {
+        background-image: url(../../images/bg-intro-mobile.png);
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .container .head h1 {
+        font-size: 28px;
+        padding: 100px 60px 0 60px;
+    }
+
+    .container .head p {
+        font-size: 12px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 30px;
+    }
+
+    .container .main-section .btn-free-trial {
+        height: 80px;
+        padding: 0 90px;
+    }
+
+    .container .main-section {
+        min-width: 90%;
+        margin: 20px;
+    }
+
+    .container .main-section .form p {
+        margin: 0 20px;
+    }
+}
