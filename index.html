@@ -22,16 +22,39 @@
     </header>
 
     <section class="main-section">
-      <div>
-        <button type="submit" class="btn-free-trial"><span class="free-trial">Try it free 7 days</span> then $20/mo. thereafter</button>
-        <div class="form">
+
+      <button type="submit" class="btn-free-trial"><span class="free-trial">Try it free 7 days</span> then $20/mo. thereafter</button>
+
+      <div class="form">
+
+        <div class="input-wrapper">
           <input type="text" placeholder="First Name">
-          <input type="text" placeholder="Last Name">
-          <input type="text" placeholder="Email Address">
-          <input type="text" placeholder="Password">
-          <button type="submit" class="btn-claim">CLAIM YOUR FREE TRIAL</button>
-          <p>By clicking the button, you are agreeing to our <span class="terms">Terms and Services</span></p>
+          <img src="./images/icon-error.svg" alt="error icon" class="error-icon hidden">
         </div>
+        <span class="error-message hidden">First name cannot be empty</span>
+
+        <div class="input-wrapper">
+          <input type="text" placeholder="Last Name">
+          <img src="./images/icon-error.svg" alt="error icon" class="error-icon hidden">
+        </div>
+        <span class="error-message hidden">Last Name cannot be empty</span>
+
+        <div class="input-wrapper">
+          <input id="email" type="text" placeholder="Email Address">
+          <img src="./images/icon-error.svg" alt="error icon" class="error-icon hidden">
+        </div>
+        <span class="error-message hidden">Looks like this is not an email</span>
+
+        <div class="input-wrapper">
+          <input type="text" placeholder="Password">
+          <img src="./images/icon-error.svg" alt="error icon" class="error-icon hidden">
+        </div>
+        <span class="error-message hidden">Password cannot be empty</span>
+
+        <button type="submit" class="btn-claim">CLAIM YOUR FREE TRIAL</button>
+
+        <p>By clicking the button, you are agreeing to our <span class="terms">Terms and Services</span></p>
+
       </div>
     </section>
   </main>

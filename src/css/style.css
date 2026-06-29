@@ -55,22 +55,45 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    padding: 20px;
+    padding: 25px;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0px 5px hsl(0, 67%, 65%);
 }
 
-.container .main-section .form input {
+.container .main-section .form .input-wrapper {
+    position: relative;
+}
+
+.container .main-section .form .input-wrapper input {
     height: 40px;
+    width: 100%;
     border: 1px solid hsl(246, 25%, 77%);
     border-radius: 5px;
-    padding: 0 20px;
+    padding: 0 45px 0 25px;
     font-weight: 600;
 }
 
+.container .main-section .form .input-wrapper .error-icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 15px;
+    height: 15px;
+}
+
+.container .main-section .form .error-message {
+    color: hsl(0, 100%, 74%);
+    font-style: italic;
+    font-size: 10px;
+    text-align: right;
+    margin-top: -10px;
+    font-weight: 500;
+}
+
 .container .main-section .form .btn-claim {
-    height: 50px;
+    height: 45px;
     letter-spacing: 0.1em;
     background-color: hsl(154, 59%, 51%);
     border: 0 solid;
@@ -89,10 +112,19 @@ body {
 .container .main-section .form p {
     color: hsl(246, 25%, 77%);
     font-size: 10px;
-    margin: 0 50px;
+    margin: 0;
     font-weight: 600;
+    text-align: center;
 }
 
 .container .main-section .form p .terms {
     color: hsl(0, 100%, 74%);
+}
+
+.error {
+    border: 2px solid hsl(0, 100%, 74%);
+}
+
+.hidden {
+    display: none;
 }
